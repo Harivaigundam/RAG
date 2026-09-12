@@ -146,3 +146,16 @@ If you want me to produce a developer-friendly checklist (e.g., how to run with 
 If you'd like, I can also:
 - Add a `.env.example` file with variable names (no secrets). 
 - Add a small `mock_flights.py` helper and wire it behind a DEBUG flag for local development.
+
+
+
+MCP concepts
+1. remote MCP
+
+requirement
+langchain-mcp-adapters==0.3.0
+nest_asyncio==1.6.0
+mcp==1.28.1
+
+url
+https://mcp.tavily.com/mcp/?tavilyApiKey=<your-api-key>

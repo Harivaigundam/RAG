@@ -64,7 +64,7 @@ async def travel(request: TravelRequest):
             )
 
         # Call your LangGraph wrapper
-        result = run_travel(
+        result = await run_travel(
             user_input=user_input,
             thread_id=request.thread_id
         )
